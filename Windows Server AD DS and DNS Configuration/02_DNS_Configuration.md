@@ -1,12 +1,54 @@
-# DNS Configuration
+# DNS & Domain Configuration
 
 ## Overview
-This section covers adding and verifying a custom domain in Microsoft Entra ID.
 
-## Steps
-1. Add custom domain (e.g., arizaylab.tech).
-2. Create TXT record in DNS provider.
-3. Verify domain in Entra ID.
+This section focuses on configuring DNS and setting up a custom domain in Microsoft Entra ID to enable hybrid identity.
 
-## Why It Matters
-Ensures users can sign in with a professional domain instead of onmicrosoft.com.
+---
+
+## What This Does
+
+* Adds custom domain (`arizaylab.tech`)
+* Verifies domain ownership via DNS
+* Enables domain usage for authentication
+
+---
+
+## Technologies Used
+
+* Microsoft Entra ID
+* DNS Management (GoDaddy/Namecheap/Cloudflare)
+* Azure Portal
+
+---
+
+## Setup Steps
+
+### 1. Add Custom Domain
+
+* Go to Entra Admin Center
+* Navigate to **Custom Domain Names**
+* Add domain: `arizaylab.tech`
+
+---
+
+### 2. Verify Domain
+
+* Add TXT record in DNS provider
+* Example:
+
+  * Name: @
+  * Value: MS=xxxxxxx
+* Click **Verify**
+
+---
+
+### 3. Set as Primary Domain
+
+* Make `arizaylab.tech` primary
+
+---
+
+## Outcome
+
+A verified domain ready for hybrid identity and user authentication.

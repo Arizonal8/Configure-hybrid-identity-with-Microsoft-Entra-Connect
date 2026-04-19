@@ -98,10 +98,3 @@ This project was developed to gain hands-on experience with hybrid identity, a c
 ## Conclusion
 
 This project successfully demonstrates a working hybrid identity setup in which users from an on-premises Active Directory are synchronized to Microsoft Entra ID and can authenticate in the cloud using the same credentials. The implementation reflects real-world enterprise identity infrastructure and reinforces practical cloud and IAM skills.
-
-## Contact
-
-For questions or discussion regarding this project:
-
-- LinkedIn: (add your link)
-- GitHub: (your GitHub profile)
